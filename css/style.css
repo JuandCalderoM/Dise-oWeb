@@ -1,0 +1,150 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /** reset para reams **/
+}
+* ,*::before, *::after{
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+/*Global*/
+img{
+    max-width: 100%;
+}
+.content{
+    max-width: 120rem;
+    /* centrar */
+    margin:0 auto;
+}
+.seccion{
+    margin-top: 2rem;
+    margin-bottom:2rem;
+}
+h1{
+font-size: 3.8rem;
+}
+h2{
+font-size: 3.4rem;
+}
+h3{
+font-size: 3rem;
+}
+h4{
+font-size: 2.6rem;
+}
+/*utilidades */
+.fw-300{
+    font-weight: 300;
+}
+.center-text{
+    text-align: center;
+}
+/* Botones */
+.d_display {
+    display: block!important;
+}
+.boton{
+color: white;
+font-weight: 700;
+text-decoration: none;
+font-size: 1.8rem;
+padding: 1rem 3rem;
+margin-top: 3rem;
+text-transform: uppercase;
+display: inline-block;
+text-align: center;
+}
+
+.boton-ver{
+background-color: green;
+}
+.boton-nar{
+background-color: orange;
+}
+/*header*/
+.site-header.init{
+    background: url(../imagen/header1.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+.content-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content-header h1 {
+    color: green;
+    padding-bottom: 3rem;
+    line-height: 1.8;
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+/* */
+.encabezado{
+    color: red;
+}
+/*busqueda*/
+.busqueda a{
+color: green;
+text-decoration: none;
+font-size: 1.8rem; /* 18 px*/
+margin-right:2rem ;
+}
+/*Seudo selector*/
+.busqueda a:last-of-type{
+    margin: 0;
+}
+/*iconos de informacion*/
+
+.posd{
+display: flex;
+justify-content: space-between;
+}
+.iconos{
+flex-basis: calc(33.3% - 1rem);
+text-align: center;
+}
+.posd h3{
+    text-transform: uppercase;
+}
+.iconos img {
+    height: 40%;
+}
+/* iconos publicidad*/
+.content-Anunc{
+    display: flex;
+    justify-content: space-between;
+}
+.content-Anunc img{
+    width: 100%;
+    height: 40%;
+}
+.anun{
+    flex-basis: calc(33.3% - 1rem);
+    border: 1px solid #b5b5b5;
+    background-color: #a5f08c;
+}
+.contenido_anun{
+    padding: 4rem 2rem;
+}
+.contenido_anun h3 , p {
+    margin: 0;
+}
+.precio{
+    color: green;
+    font-weight: 700;
+}
+.ver_td{
+    display: flex;
+    justify-content: flex-end;
+}
