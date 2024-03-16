@@ -136,6 +136,7 @@ text-align: center;
 .content-Anunc{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .contenido_anun h3{
     color:#3B6F2E;
@@ -161,9 +162,10 @@ text-align: center;
     margin-right: 2rem;
 }
 .anun{
-    flex-basis: calc(33.3% - 1rem);
+    flex: 0 0 calc(33.3% - 1rem);
     border: 1px solid #b5b5b5;
     background-color: #a5f08c;
+    margin-bottom:2rem;
 }
 .contenido_anun{
     padding: 4rem 2rem;
