@@ -35,7 +35,7 @@ font-size: 3rem;
 h4{
 font-size: 2.6rem;
 }
-h3,h4,h2{
+h1,h3,h4,h2{
     -webkit-text-stroke: 5% green;
     color: white;
     text-shadow:
@@ -76,6 +76,10 @@ background-color: green;
 background-color: orange;
 }
 /*header*/
+.site-header{
+background-color: #6FE850;
+padding:1rem 0 3rem 0;
+}
 .site-header.init{
     background: url(../imagen/header1.jpg);
     background-position: center center;
@@ -271,4 +275,22 @@ text-align: right;
 }
 .copy{
     margin:0;
+}
+/* Pagina Nosotro*/
+.content_nosotro{
+    display: grid; /*son tablas*/
+    grid-template-columns: 50% 50%; /*columnas por fracciones*/
+    grid-column-gap:4rem;
+}
+.text_Nosotros{
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem 0 3rem 0;
+}
+.imagen-Nosotros img{
+    width: 100%;
+    height: 100%;
+    display: block; /* Para eliminar el espacio extra debajo de la imagen */
+    object-fit: cover;
 }
