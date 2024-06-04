@@ -2,3 +2,4 @@ mi practica rebase
 este es el test numero 1
 -este es rebase 1
 -este es rebase 2
+--prueba final stash
